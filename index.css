@@ -1,0 +1,52 @@
+#play{
+	margin-top:20vh;
+	width:50vh;
+	height:5vh;
+}
+#instruct{
+	width:50vh;
+	height:5vh;
+}
+#main{
+	width:500px;
+	height:500px;
+	background-color:white;
+	margin-top:10vh;
+	border:2px solid black;
+	position:relative;
+	display:none;
+}
+#player1{
+	z-index:1;
+	background-color:red;
+	height:15px;
+	width:80px;
+	top:15px;
+	position:absolute;
+}
+#ball{
+	z-index:0;
+	width:20px;
+	height:20px;
+	left:240px;
+	border-radius:50%;
+	position:absolute;
+	top:45%;
+	background-color:black;
+}
+#player2{
+	z-index:1;
+	background-color:blue;
+	height:15px;
+	width:80px;
+	bottom:15px;
+	position:absolute;
+}
+#instructions{
+	z-index:2;
+	background-color:lightblue;
+	height:500px;
+	width:500px;
+	position:absolute;
+	display:none;
+}
